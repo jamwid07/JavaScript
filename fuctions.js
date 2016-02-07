@@ -9,7 +9,9 @@ function identify(age) {
 
 // learn.javascript.ru saytidagi fuksiya darsining vazifalari
 // Masala #1:
-function checkAge (age) { return (age >) || confirm ("Kattalar ruxsat berishdimi?")}
+function checkAge (age) {
+	return (age >) || confirm ("Kattalar ruxsat berishdimi?")
+}
 function checkAge (age) {
   return (age > 18 ) ?  true : confirm ("Kattalar ruxsat berishdimi?");
 
