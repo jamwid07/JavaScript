@@ -2,7 +2,7 @@
 var age = 22;
 function identify(age) {
   if (age < 10) alert ("You are child");
-  else if (age < 16) alert ("You are teenager);
+  else if (age < 16) alert ("You are teenager");
   else if (age < 21) alert ("You are still young");
   else alert ("you are already an adult");
 }
